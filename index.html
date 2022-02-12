@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-    <iframe
-    src="Purbayan_rtpcr.pdf"
-    frameBorder="0"
-    scrolling="auto"
-    height="800px"
-    width="800px"
-></iframe>
-</body>
+<html>
+  <head>
+    <title>PDF Viewer</title>
+  </head>
+  <body>
+
+    <!--
+      Place the following <div> element where you want the PDF to be displayed in your website. You can change the size using the width and height attributes.
+    -->
+    <div>
+      <object
+        data='Purbayan_rtpcr.pdf'
+        type="application/pdf"
+        width="500"
+        height="678"
+      >
+
+        <iframe
+          src='Purbayan_rtpcr.pdf'
+          width="500"
+          height="678"
+        >
+        <p>This browser does not support PDF!</p>
+        </iframe>
+      </object>
+    </div>
+
+  </body>
 </html>
